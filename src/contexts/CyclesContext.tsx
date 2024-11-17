@@ -40,8 +40,6 @@ export const CyclesContextProvider = ({
 
   const activeCycle = cycles.find((cycle) => cycle.id === activeCycleId);
 
-  console.log(activeCycle);
-
   const setSecondsPassed = (seconds: number) => setAmountSecondsPassed(seconds);
 
   const markCurrentCycleAsFinished = () => {
