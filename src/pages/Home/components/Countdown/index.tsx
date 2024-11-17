@@ -25,7 +25,7 @@ const Countdown = () => {
   // usado dessa forma porque setInterval é uma função que depende
   // de processamento, então nem sempre devolve um segundo exato
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: number;
 
     // calcula a diferença em segundos entre a
     // data atual e a data de início do ciclo
